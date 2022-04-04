@@ -17,6 +17,11 @@
   gap: 5rem;
   text-align: center;
 }
+.pari-picker {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+}
 
 input{
   height: 250px;
