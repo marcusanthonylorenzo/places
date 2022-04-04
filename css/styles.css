@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.place-picker {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+}
+input{
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  border-width: 8px;
+  border-style:ridge;
+  border-width: 10px;
+  border-radius: 10px;
+  border-radius: 50%;
+  border-color: rgb(15, 10, 66);
+  box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
+  filter: blur(20px) grayscale();
+}
+input:hover {
+  transition: all 1.5s;
+  filter:none;
+  transform: scale(1.2) rotate(3deg);
+}
