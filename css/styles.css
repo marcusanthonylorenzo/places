@@ -12,6 +12,12 @@
   gap: 5rem;
   text-align: center;
 }
+.city-picker {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+}
+
 input{
   height: 250px;
   width: 250px;
@@ -29,4 +35,13 @@ input:hover {
   transition: all 1.5s;
   filter:none;
   transform: scale(1.2) rotate(3deg);
+}
+#four {
+  display: none;
+}
+#five {
+  display: none;
+}
+#six {
+  display: none;
 }
